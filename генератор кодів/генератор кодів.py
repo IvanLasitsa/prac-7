@@ -20,7 +20,7 @@ class Widget(QMainWindow):
             
     def checkbox_numbers(self, count):
         if self.ui.cb_numbers.isChecked():
-            numbers = [str(random.randint(1, 100)) for _ in range(count)]
+            numbers = [str(random.randint(0, 10)) for _ in range(count)]
             return ''.join(numbers)
         else:
             return ''
