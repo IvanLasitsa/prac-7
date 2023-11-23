@@ -27,7 +27,7 @@ class Ui_MainWindow(object):
 "border: 5px solid purple;\n"
 "border-radius: 10px;")
         self.btn_generate.setObjectName("btn_generate")
-        self.result = QtWidgets.QLabel(self.centralwidget)
+        self.result = QtWidgets.QLineEdit(self.centralwidget)
         self.result.setGeometry(QtCore.QRect(60, 110, 201, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
